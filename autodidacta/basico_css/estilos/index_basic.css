@@ -1,0 +1,5 @@
+p{
+    color: blue;
+} 
+/*Aqui lo que hacemos es poner que todos los elementos con etiqueta "p" se les modifique el atributo
+llamado color el cual modifica su color, en este caso generaliza pues es todos los que sean p no solo uno*/
