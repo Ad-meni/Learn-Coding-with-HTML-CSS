@@ -1,0 +1,69 @@
+.formulario{
+    background: blanchedalmond ;/*Por si solo este atributo solo hace que cambie el color de el fondo de la caja (formulario) pero
+    el tamaño de el fondo dependera de los elementos que tenga el formulario, como aun no se configura alguna medida de distancia entonces
+    se ajusta a lo que ocupen los elementos*/
+    
+    padding: 20px;/*Aqui lo que hacemos es poner cuanta distancia hay entre
+    el contenido de la caja(form) a el contenido (input) entonces aqui
+    se hace una distancia de 25px de el contenido pero esta practica
+    no suele ser la comunmente utilizada*/
+
+    /*Todo lo siguiente es lo mismo que si ponemos solo el padding pero aqui especificamos
+    y eso sirve si queremos que ciertas partes sean mas cortas que otras*/
+
+    padding-top: 20px;/*Aqui especificamos la distancia de cual lado
+    vamos a aumentar, en este caso es la distancia de el borde de arriba
+    de la caja form a el contenido*/
+    padding-bottom: 20px;/*Aqui se cambia lo mismo pero en vez de la direccion
+    de arriba es la de abajo, entonces aqui se aumenta la distancia entre
+    el contenido y el borde de la caja form*/
+    padding-left: 20px;/*Aqui se cambia lo mismo mencionado pero de el
+    lado izquierdo*/
+    padding-right: 20px;/*Aqui igual la distancia de el contenido y el borde
+    pero de el lado derecho*/
+
+    /*Otra forma de escribir todo esto es poner un solo padding pero con mas numeros de la siguiente forma
+    */
+    padding: 10px 20px 20px 20px;/*Aqui es lo mismo que en los anteriores
+    pero en uno solo, el padding lo lee de derecha a izquierda, empezando desde arriba, luego derecha, despues abajo y finalmente
+    con izquierda, de esta forma si no queremos poner los top, bottom, left, right, solo con un padding basta
+    pero guiandose por la forma en la que se cambiaran los valores de el relleno que como ya mencione es 
+    siguiendo el orden de un reloj*/
+
+    /*Si quieres probar ciertas partes  del codigo solo comenta el codigo usando esto /*PONIENDO EN MEDIO DE ESTO
+    LOS CODIGOS QUE VAYAS A COMENTAR*/ 
+}
+.formulario_input{
+    padding: 11px;/*Con esto cambiamos el tamaño de el relleno que hay de los input solamente, osea que
+    se modifica la distancia entre el contenido y los bordes de el cubo/caja/input, aqui
+    no cambiamos el tamaño de la caja(osea de la caja form con clase formulario), si el tamaño de el fondo de la caja cambia
+    es porque esta se ajusta solamente a el tamaño de los elementos que contiene (en este caso los input)*/
+    width: 25%;/*Tamaño de la caja*/
+    background: rgb(174, 121, 223);/*Color de fondo*/
+    color: black;/*Color de contenido*/
+    margin: 9px;/*Distancia de cada elemento que pertenece a esta clase en este caso los input*/
+
+}
+.formulario_submit{
+    width: 100%;
+    letter-spacing: 2px;/*Esto marca la distancia entre
+    el texto de el contenido*/
+    background: seagreen;
+    color: black;
+    text-transform: uppercase;/*Se hacen mayusculas */
+}
+
+.box{
+    background: red;
+    /* padding: 50px;  Aqui esto cambia el tamaño de todo en general*/
+    height: 50px;/*Altura de la caja*/
+    width: 50px;/*Ancho de la caja*/
+    /*Esto cambio los valores de 3 cajas y la razon por la que se ve como una sola es que
+    no tenemos marcada una separacion entre estas cajas*/
+
+    margin: 10px;/*Con esto separamos cada uno de los elementos que tengan*/
+    
+    /*Un tema con los margenes es que no se suman si no que como vemos debe de haber
+    20px en la distancia de arriba y abajo de la caja de en medio pero no lo hay porque los margenes
+    no se suman, solo se sobrepone el margen mas grande que en este caso es el margen de 10px*/
+}

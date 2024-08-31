@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rutas</title>
+    </head>
+    <body>
+        <!--puedes poner cualquier indicador de comando, como en este caso puse a*3 haciendo que la etiqueta
+        a se genere 3 veces-->
+        <a href="https://www.youtube.com/watch?v=ELSm-G201Ls" target="_blank">Ruta absuluta con url</a><!--las absulutas que sin importar desde donde 
+        entres a esta siempre enviara a este enlace-->
+        <a href="listas.html" target="_blank">Ruta Relativa</a><!--Este tipo de ruta solo funciona con archivos/objetos que esten dentro de la carpeta 
+        que se encuentra este archivo-->
+        <a href="Prueba_ruta/Prueba_ruta.html" target="_blank">Ruta absuluta por carpetas dentro de esta</a><!--este tipo de ruta hay
+        dos versiones, una es la que esta aqui que es si la carpeta se encuentra dentro de el mismo espacio que este archivo
+        ponemos donde es que esta primero el nombre de la carpeta y luego el nombre del archivo-->
+        <a href="../ignorar_esto.html" target="_blank">Ruta absuluta por carpetas fuera de esta</a><!--En este caso el archivo no se 
+        encontraba en una carpeta que estuviera dentro de el mismo archivo si no en una que esta detras de esta, para esto lo que 
+        se hace es poner "." cada punto representa un retroceso en las carpetas de esta forma tenemos acceso a archivos
+        que esten atras o adelante de este mismo, para explicarlo mejor, si estuviera dos carpetas atras se pone
+        "../../" que indica dos retrocesos, como en este caso solo es una carpeta atras entonces es "../" porque solo es un retroceso-->
+    </body>
+</html>

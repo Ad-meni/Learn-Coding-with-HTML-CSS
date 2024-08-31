@@ -1,0 +1,23 @@
+
+.c_one{
+    background: red;
+    width: 80%;
+    height: 10px;
+}/*Esto hace que se modifique los atributos de la clase c_one que en este caso la contiene un div, como vemos aqui modificamos su color
+pero como la caja no contiene texto ni algo mas entonces no se muestra pero al poner width se agrega valor a el tamaño pero tiene que ser
+a ancho y alto entonces de igual lo hacemos con height*/
+
+input{
+    background: whitesmoke;
+    width: 80%;
+    height: 5%;
+}/*Aqui modificamos los atributos de todos los input, modificando su color de fondo, su ancho y su altura pero con el input de
+tipo subti lo dividimos de estos otros usando una clase y la clase se le agregan valores individuales*/
+
+.loging{
+    background: burlywood;
+    width: 80%;
+    height: 50px;
+}/*Esto modifica el color y tamaño de el boton, pero con el hecho de que aqui usamos porcentaje para que asi sin importar si es habierta
+por una pagina web en pc o en celular siempre ocupe el 80% de altura o ancho de la pantalla, aqui modificamos los atributos del boton
+usando una clase para separar sus atributos de los demas input*/

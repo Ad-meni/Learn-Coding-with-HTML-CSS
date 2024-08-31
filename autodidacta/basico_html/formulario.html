@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form> <!--Empezamos con la etiqueta form la cual le dice a la pagina que lo que este dentro sera un formulario y permite usar 
+            atiquetas correspondientes a un formulario-->
+            <input type="text"> 
+            <!--aqui ponemos un input que lo que hace es hacer funcion de recepcion de acciones/datos de el usuario, en este caso 
+            al poner input debemos poner la etiqueta type que funciona para describir que tipo de dato vamos a recopilar, en este 
+            caso usaremos solamente datos basicos, como vemos aqui es solo un archivo de entradada de tipo texto, osea puede ser alfanumerico-->
+            <br>
+            <input type="email" required> 
+            <!--aqui ponemos la etiqueta "required" que lo que hace es decir que
+            este campo es obligatorio y si el usuario lo envia sin completar este campo entonces no se enviara 
+            nada diceindo al usuario que se debe completar correctamente-->
+            <br>
+            <input type="password" name="password">
+            <!--Aqui usamos la etiqueta "name" la cual hace la funcion de dar un identificador para con esto tener guardado el dato
+            ingresado por el usuario y poder llamar a este dato por el identificador que le ponemos al poner name, basicamente es como
+            decir que el dato se guarda en una "variable" por asi decirlo y el nombre sera en este caso password y para llamar
+            a este dato o usarlo debemos usar su identificador-->
+            <br>
+            <input type="text" placeholder="Escribe lo que sea">
+            <!--Aqui usamos la etiqueta "placeholder" que es mostrar en la casilla un texto
+            que solo es visual, no afecta en nada y en general es usado para mostrar o describir el tipo de dato que deben ingresar
+            y al usuario ingresar algo se borrara el texto que contiene el placeholder y como ya mencione, no afecta en nada-->
+            <br>
+            <input type="checkbox">
+            <br><!--br solo es salto de linea, sin esto los input se ponen seguidos uno de otro-->
+            <input type="radio">
+            <br>
+            <input type="file">
+            <br>
+            <input type="date">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

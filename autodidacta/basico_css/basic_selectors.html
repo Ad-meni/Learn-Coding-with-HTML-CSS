@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/basic_select.css">
+        <title>Selectores</title>
+    </head>
+    <body>
+        <h1>Lista de Ingredientes de pizza</h1>
+        <!--aqui lo que hacemos es crear una lista la cual usaremos para usar selectores y mostrar sus usos-->
+        <ul>
+            <li>harina</li>
+            <li>masa</li>
+            <li id="identificador">salsa de tomate</li>
+            <li class="clase">queso</li><!--aqui creamos una clase, todos los que contengan esta clase se les cambiaran los atributos al
+            cambiarselos en second_style.css, ve ahi para entender mejor esto-->
+            <li>peperoni y <span>piña</span></li><!--aqui solo usamos un span para separar este texto de lo demas y que
+            al llamar a span solo se modifique esto, no es un selector en si es mas un separador-->
+        </ul>
+    </body>
+</html>

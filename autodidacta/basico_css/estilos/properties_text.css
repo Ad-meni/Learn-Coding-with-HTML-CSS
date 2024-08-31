@@ -1,0 +1,38 @@
+/*Esto es una explicacion de algunas atributos */
+p{
+    color: rgb(220, 89, 56);/*Esto nos permite cambiar el color ya sea uno especifico o uno clave por nombre*/
+
+    font-family: 'Lucida Sans';/*Esto nos permite cambiar el tipo de letra/fuente que usara, para seleccionar una fuente
+    se debe poner algo especifico, si es una fuente que su nombre es una sola palabra, osea sin espacios entre letras entonces
+    no se ponen las '' pero al ser una fuente que lleva espacios como en este caso es "lucida sans" se usa '' pues es la forma en la
+    que se acepta esto, otra cosa es que se pueden agregar mas de una fuente para que si una no la carga o acepta el navegador entonces
+    se use la siguiente, para usar otra solo se debe de poner una coma despues de la fuente o despues de la comilla e ingresar
+    la fuente, otra forma de decirlo es tipografias*/
+
+    font-size: 20px;/*Esto nos permite modificar el tamaño de la letra, esto puede guiarse por el sistema de medida de pixeles o de 
+    porcentajes pero en general se usa mas px*/
+
+    font-weight: bold;/*Con esto hacemos que lo seleccionado se modifique de tal forma que el texto se hara mas remarcado
+    o como se dice "se hara negrita" jaja, pero otra forma de definir esto es que se modifica el grosor de esto*/
+
+    text-align: center;/*Esto dice la alinacion de el como se alineara el texto, lo pone en un area especifica ya sea
+    izquierda, derecha, centro, abajo, arriba o tambien el justify que hace
+    que tengan cierto modo de el como se alinea*/
+
+    text-decoration: none;/*Esto lo que hace es como su nombre lo indica, crear una decoracion de el texto, de esta forma 
+    podemos ya sea subresaltar texto, encerrar o cualquier accion que gustemos y estas se pueden mezclar*/
+
+    line-height: 1.5;/*Esto modifica el texto que hay entre lineas de texto, esto se puede modificar ya sea por numero o por porcentajes
+    */
+
+    letter-spacing: 1px;/*Esto hace que se cree un espacio entre cada letra y el espacio igual se modifica mediante pixeles o 
+    igualmente por porcentajes*/
+
+    
+}
+span{
+    text-transform: uppercase;/*Esto lo que hace es que modifica el tipo de letra, puede ser que de minuscula lo convierta
+    a mayuscula o en viseversa */
+    font-style: Baskervville;/*Aqui modificamos su fuente integrando otra fuente que no esta disponible normalmente al menos
+    que la importes*/
+}

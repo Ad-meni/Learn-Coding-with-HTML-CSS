@@ -1,0 +1,28 @@
+/*Aqui lo que hacemos es decir que a los elementos en la etiqueta li tengan cambio en el atributo color y sea violeta al igual con
+title cambiamos su color*/
+li{
+    color: rgb(107, 42, 218);
+}
+title{
+    color: springgreen;
+}
+/*Ya aqui especificamos que solo lo que este dentro de el span cambie su atributo que en este caso es color y aqui sera solo aqui
+rojo*/
+span{
+    color: red;
+}
+/*En este llamamos a una clase, en este caso se llama clase y para llamarla solo hay que poner el "." y el nombre
+y al llamarla se le dice que todos los que tengan acceso a esta clase se les modificara los siguientes atributos que en este
+caso es el atributo color pero puede ser cualquiera, esta es una forma de hacer uso de el metodo de selectores pues aqui
+seleccionamos solo los que contengan esta clase*/
+.clase{
+    color: aqua;
+}
+/*En este caso en vez de llamar a toda una clase y que todos los que la tengan sean afectados aqui usamos otro metodo que es el de
+identificador donde le damos un id a lo que sea y al llamar a este id poniendo "#" y despues el nombre se le modifica solo a 
+esto que tiene el identificador eso, este metodo de seleccion es diferente pues aqui el id suele ser individual para cada etiqueta y 
+no se suele ver que mas de una etiqueta tenga el mismo id, no se recomienda usar este metodo de identificador pues al usar esto suele
+haber problemas al usarlos en otros lenguajes*/
+#identificador{
+    color: chocolate;
+}
